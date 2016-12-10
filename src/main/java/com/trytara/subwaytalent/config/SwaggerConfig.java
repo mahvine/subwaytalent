@@ -27,6 +27,7 @@ import com.fasterxml.classmate.TypeResolver;
 /**
  * for configuring Swagger UI (API Documents)
  * @author JRDomingo
+ * @since Dec 10, 2016
  *
  */
 @Configuration

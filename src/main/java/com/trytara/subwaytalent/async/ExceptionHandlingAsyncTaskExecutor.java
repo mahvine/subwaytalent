@@ -12,7 +12,7 @@ import org.springframework.core.task.AsyncTaskExecutor;
 /**
  * 
  * @author JRDomingo
- * Dec 10, 2016
+ * @since Dec 10, 2016
  */
 public class ExceptionHandlingAsyncTaskExecutor implements AsyncTaskExecutor,
         InitializingBean, DisposableBean {

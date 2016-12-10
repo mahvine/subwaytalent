@@ -22,7 +22,7 @@ import com.trytara.subwaytalent.async.ExceptionHandlingAsyncTaskExecutor;
 /**
  * 
  * @author JRDomingo
- * Dec 10, 2016
+ * @since Dec 10, 2016
  */
 @Configuration
 @EnableAsync

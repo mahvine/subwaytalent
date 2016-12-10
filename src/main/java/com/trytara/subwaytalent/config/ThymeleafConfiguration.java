@@ -13,7 +13,7 @@ import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 /**
  * 
  * @author JRDomingo
- * Dec 10, 2016
+ * @since Dec 10, 2016
  */
 @Configuration
 public class ThymeleafConfiguration {

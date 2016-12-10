@@ -14,7 +14,7 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 /**
  * 
  * @author JRDomingo
- * Dec 10, 2016
+ * @since Dec 10, 2016
  */
 @Configuration
 public class MailConfiguration implements EnvironmentAware {
