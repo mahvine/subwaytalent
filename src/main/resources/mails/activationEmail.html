@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Subway Talent activation</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <p>
+           Howdy!
+        </p>
+        <p>
+            Your Subway Talent account has been created. Please click on the URL below to activate it:
+        </p>
+        <p>
+            <a th:href="@{|${baseUrl}/activate?activationKey=${user.activationKey}|}"
+               >Activation Link</a>
+        </p>
+        <p>
+            <span>Regards, </span>
+            <br/>
+            <em>Subway Talent Team.</em>
+        </p>
+    </body>
+</html>

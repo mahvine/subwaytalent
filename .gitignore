@@ -1,0 +1,7 @@
+/target/
+/.springBeans
+/.settings
+/target
+/.classpath
+/.project
+/src/main/resources/static/bower_components

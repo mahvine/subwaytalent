@@ -1,0 +1,57 @@
+
+@font-face {
+  font-family: "And Black";
+  src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
+       url("../fonts/and_black.woff") format('woff'),
+       url("../fonts/and_black.ttf") format('truetype');
+}
+
+.android-font {
+  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #767777;
+  font-weight: 300;
+}
+
+@font-face {
+    font-family: RapierZero;
+    src: url(../fonts/Rapier_Zero.otf);
+}
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+
+
+.demo-content {
+  max-width: 1080px;
+}
+
+/*
+
+	Developer 
+
+*/
+
+#brand{
+	font-family: RapierZero;
+	font-size: xx-large;
+	text-align:center;
+}
+.brand{
+	font-family: RapierZero;
+	font-size: xx-large;
+	text-align:center;
+}
+.changepassword-form{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.android-slogan {
+  font-size: 30px;
+  padding-top:150px;
+  margin-right:auto;
+  margin-left:auto;
+}
