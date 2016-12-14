@@ -25,6 +25,8 @@ public class UserSessionDTO {
 	
 	public String sessionToken;
 	
+	public User.Type type;
+	
 	public List<Role> roles;
 	public UserSessionDTO(){
 		
@@ -35,6 +37,7 @@ public class UserSessionDTO {
 		this.profile = user.profile;
 		this.sessionToken = sessionToken;
 		this.roles = user.roles;
+		this.type = user.type;
 	}
 	
 }

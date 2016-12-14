@@ -71,9 +71,15 @@ public class User {
 		CREATED,VERIFIED
 	}
 	
+	public enum Type{
+		PLANNER,TALENT
+	}
+	
 	@Column(name="date_registered")
 	public Date dateRegistered;
 	
-	
+
+	@Enumerated(EnumType.STRING)
+	public Type type;
 	
 }

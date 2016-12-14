@@ -1,4 +1,4 @@
-package edu.ust.subway.talent;
+package com.trytara.subwaytalent;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

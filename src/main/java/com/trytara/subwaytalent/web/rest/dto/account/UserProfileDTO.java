@@ -19,6 +19,7 @@ public class UserProfileDTO {
     public String pictureUrl;
     public Date birthDate;
     public String status;
+    public User.Type type;
 
     public UserProfileDTO() {
     }
@@ -30,6 +31,7 @@ public class UserProfileDTO {
             this.birthDate = user.profile.birthDate;
         }
         this.id = user.id;
+        this.type = user.type;
         this.email = user.email;
         this.status = user.status.toString();
     }

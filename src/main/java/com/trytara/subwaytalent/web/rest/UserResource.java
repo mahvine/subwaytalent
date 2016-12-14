@@ -100,6 +100,7 @@ public class UserResource {
 			user = new User();
 			user.dateRegistered = new Date();
 			user.email = email;
+			user.type = registerDTO.type;
 			user.salt = RandomStringUtils.randomAlphanumeric(6);
 			user.encryptedPassword = encrypt(password, user.salt);
 			user.profile = registerDTO.profile;
@@ -277,8 +278,10 @@ public class UserResource {
 			userRepository.save(user);
 		}
 		user.profile.name = userProfileDTO.name;
+		
 		user.profile.pictureUrl = userProfileDTO.pictureUrl;
 		user.profile.birthDate = userProfileDTO.birthDate;
+		user.type = userProfileDTO.type;
 		userRepository.save(user);
 		userProfileRepository.save(user.profile);
 	}
